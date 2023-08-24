@@ -4,7 +4,6 @@ SELECT * FROM `bola-niyo.niyo.Bank_Churner`;
 
 
 
-
 SELECT Gender, COUNT(CLIENTNUM) AS numberofclient, Attrition_Flag from `bola-niyo.niyo.Bank_Churner`
 WHERE Attrition_Flag = 'Attrited Customer'
 GROUP BY Gender, Attrition_Flag;
